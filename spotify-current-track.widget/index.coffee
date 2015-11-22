@@ -13,15 +13,15 @@ echo "$theArtist - $theName" || echo "Not Connected To Spotify"
 refreshFrequency: 2000
 
 style: """
-  bottom: 10px
-  left: 10px
+  bottom: 120px
+  left: 260px
   color: #fff
 
   .output
     font-family: Helvetica Neue
-    font-size: 30px
+    font-size: 24px
     font-weight: 100
-    text-shadow: 0 1px 5px #000000;
+    text-shadow: 0 0 1px rgba(#000, 0.5);
 """
 
 render: (output) -> """
